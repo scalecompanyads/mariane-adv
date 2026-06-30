@@ -206,6 +206,16 @@
         // Initialize Lucide Icons
         lucide.createIcons();
 
+        // Floating Button Logic
+        const fab = document.querySelector('.fab-whatsapp');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > window.innerHeight * 0.7) {
+                fab.classList.add('visible');
+            } else {
+                fab.classList.remove('visible');
+            }
+        });
+
         // FAQ Accordion Logic
         const accordionHeaders = document.querySelectorAll('.accordion-header');
         accordionHeaders.forEach(header => {
