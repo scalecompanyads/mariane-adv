@@ -575,17 +575,19 @@ p {
     .hero-content {
         height: 60vh;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         text-align: center;
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
     
     .hero-text h1 {
-        font-size: clamp(1.8rem, 6vw, 2.5rem);
+        font-size: clamp(1.6rem, 5vw, 2.2rem);
+        margin-bottom: 1rem;
     }
     
     .hero-text p {
-        margin: 0 auto 2.5rem;
+        font-size: 1rem;
+        margin: 0 auto 1.5rem;
     }
 
     .connection-content {
