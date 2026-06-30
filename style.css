@@ -563,8 +563,11 @@ p {
     .hero {
         padding: 0;
         min-height: 100vh;
+        background-color: var(--color-primary);
         background-image: url('bia_0052.jpg');
         background-position: center top;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
         align-items: flex-end;
     }
 
